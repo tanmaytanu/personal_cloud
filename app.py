@@ -1,7 +1,8 @@
 # ✅ app.py (Flask App)
 
 from flask import Flask, render_template, request, redirect, url_for, jsonify, send_from_directory
-from flask_mysqldb import MySQL
+#from flask_mysqldb import MySQL
+import mysql.connector
 from flask_login import LoginManager, login_user, login_required, logout_user, UserMixin, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 import os
