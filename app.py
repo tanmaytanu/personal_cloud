@@ -17,7 +17,7 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'cloud_storage'
 
-mysql = MySQL(app)
+#mysql = MySQL(app)
 
 # 🔐 Login Manager Setup
 login_manager = LoginManager()
